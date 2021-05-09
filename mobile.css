@@ -1,0 +1,18 @@
+
+
+@media (min-width: 1280px) {
+    .side-panel-container {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+}
+
+@media (max-width: 500px){
+    .chart-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .pie-chart{
+        margin-top: 20px;
+    }
+}
